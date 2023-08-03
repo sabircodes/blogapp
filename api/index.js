@@ -28,7 +28,7 @@ app.use('/uploads',express.static(__dirname + '/uploads'));
 
 
 // mongoose connection
- const url = "mongodb+srv://sabir:sabirlovespython@cluster0.zrojfyy.mongodb.net/?retryWrites=true&w=majority"
+ // const url = "" write ur own url
  mongoose 
  .connect(url)   
  .then(() => console.log("Database connected!"))
