@@ -8,6 +8,10 @@ This is the login page and signup page
 This page is where the user will create the post
 ![image](https://github.com/sabircodes/blogapp/assets/93681489/a9ee1fc9-d976-4e06-8fe5-5007d3fd06b4)
 
+cd into client and type NPM start
+cd into api and type Nodemon index.js
+use you own Mongoose database link in order to run this on your system.
+
 
 
 
