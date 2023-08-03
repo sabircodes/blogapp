@@ -19,8 +19,8 @@ const app = express();
 const salt = bcrypt.genSaltSync(10);
 const secret = "habdcjyejehac53535cdCDCDS";
 // 
-// middle ware
-// credentials is set true so that we can send it 
+//middleware
+// credentials are set to true so that we can send it 
 app.use(cors({credentials:  true, origin: "http://localhost:3000"}));
 app.use(express.json());
 app.use(cookieParser());
@@ -28,7 +28,7 @@ app.use('/uploads',express.static(__dirname + '/uploads'));
 
 
 // mongoose connection
- // const url = "" write ur own url
+ // const url = "" write ur own URL
  mongoose 
  .connect(url)   
  .then(() => console.log("Database connected!"))
